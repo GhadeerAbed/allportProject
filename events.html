@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/estyle.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <title>Events</title>
+</head>
+<body>
+<!-- header1-->
+    <nav class="nav1">
+        <div class="container1">
+        <div class="row g-0" style="color: white;">
+            <div class="col-6 " >
+            <div class="dropdown">
+                <a  class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false" class="navbar-brand" >
+                <img src="./img/Flag_of_the_United_States.svg" alt="" width="15" height="10.44">
+                <span class="buton-1">USA-UN</span> 
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <li><a class="dropdown-item" href="#"><img src="./img/280px-Flag_of_Canada_(Pantone).svg.png" alt="" width="20" height="14">
+                    <span class="lang">ENGLISH | Français</span>
+                        <p> canda</p> </a></li>
+                <li><a class="dropdown-item" href="#"><img src="./img/Flag_of_France.svg.png" alt="" width="20" height="14">
+                    <span class="lang">Français</span> 
+                    <p>france</p> </a></li>
+                <li><a class="dropdown-item" href="#"><img src="./img/Flag_of_Germany.svg.png" alt="" width="20" height="14">
+                    <span class="lang"> deutsch</span> 
+                    <p> deutschland(germany)</p> </a></li>
+                <li><a class="dropdown-item" href="#"><img src=".//img/علم سويسرا.jpg" alt="" width="20" height="14">
+                    <span class="lang">deutsch|Français|italiano</span> 
+                    <p>switzerland</p></a></li>
+                <li><a class="dropdown-item" href="#"><img src="./img/Flag_of_the_United_States.svg" alt="" width="20" height="14">
+                    <span class="lang">english|espanol</span> 
+                    <p>usa</p></a></li>
+                </ul>
+                </div> </div>
+                <div class="col-6"><a class="navbar-brand" id="nav-2" href="#" >
+                <i class="fas fa-user" style="font-size: 13px;"></i>
+                <span class="buton-1">ACCOUNT</span> 
+                </a></div>
+                </div></div>
+    </nav>
+    <!--header2 -->
+    <header>
+    <div class="container1">
+        <a href="#" class="logo" style="padding-left: 10px;">
+        <p>all<span>port</span></p>
+        </a>
+        <nav>
+<i class="fas fa-bars toggle-menu"></i>
+        <ul>
+            <li><a class="active" href="#">news<i class="fas fa-angle-down"></i></a>
+            <div class="sup">
+                <ul>
+                <li><a href="#"> <span>news</span></a>
+                    <div class="column">
+                    <ul>
+                    <li><a href="#">All News</a></li>
+                    <li><a href="#">Companywide News</a></li>
+                    <li><a href="#">Regional News</a></li>
+                    <li><a href="#">Industry News</a></li>
+                </ul> 
+                    </div>
+                    </li>
+                <li><a href="#"><span>People News</span></a>
+                    <div class="column">
+                    <ul>
+                    <li><a href="#">Advancements</a></li>
+                    <li><a href="#">Department News</a></li>
+                    <li><a href="#">Organizational News</a></li>
+                    <li><a href="#">Announcements</a></li>
+                    </ul>
+                    </div>
+                </li>
+                <li><a href="./events.html" style="margin-top: -25px;"><span>Events</span></a>
+                    <div class="column">
+                    <ul>
+                    <li><a href="#">allPort Sales Conference 2020</a></li>
+                    <li><a href="#">Innovator Awards </a></li>
+                    <li><a href="#">The Future of Finance</a></li>
+                    </ul>
+                    </div>
+                </li>
+                </ul>
+            </div>
+            </li>
+            <li><a href="#">Department services<i class="fas fa-angle-down"></i></a></li>
+            <li><a href="#">Job Tools<i class="fas fa-angle-down"></i></a></li>
+            <li><a href="#">Who We Are<i class="fas fa-angle-down"></i></a></li>
+            <li><a href="#">covid info</i></a></li>
+        </ul>
+        <form class="d-flex" action="./search.html" style="padding-right:10px;">
+            <input class="form-control" type="search" placeholder="Search" aria-label="Search"/>
+        <button class="search1"> <i class="fas fa-search"></i> </button>
+            </form>
+        </nav>
+    </div>
+</header>
+<!------------------------------------------------------------------------------------------------>
+<div class="container1" style="background-color: #F7FDFD; height: 40px;">
+<p style="padding-top: 8px;">Home <span style="padding:0 20px ;">></span>Events </p>
+</div>
+<!------------------------------------------------------------------------------------------------>
+<div onload="RenderDate()">
+<div class="c-p">
+    <p>Event Calendar</p>
+</div>
+<div>
+<div class="table">
+    <div class="month">
+        <h4>Event Calendar</h4>
+        <div class="cal1">
+        <div class="prev" onclick="moveDate('prev')">
+            <span>&#10094</span>
+        </div>
+        <div>
+            <h3 id="month">December</h3>
+        </div>
+        <div class="next" onclick="moveDate('next')">
+            <span>&#10095</span>
+        </div>
+    </div>
+        <div class="m-w-d">
+            <a href="#" style="color: #8172D5;">Month view</a>
+            <a href="#">Week view</a>
+            <a href="#">day view</a>
+        </div>
+    </div>
+    <div class="week">
+        <div>Monday</div>
+        <div>Tuesday</div>
+        <div>Wednesday</div>
+        <div>Thursday</div>
+        <div>Friday</div>
+        <div>Saturday</div>
+        <div>Sunday</div>
+    </div>
+    <div class="day">
+        <div>27</div>
+        <div>28</div>
+        <div>29</div>
+        <div>30</div>
+        <div>31</div>
+        <div class="day1-1">1
+            <p><a href="#">Project completion</a></p>
+        </div>
+        <div id="d2">2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div >8</div>
+        <div>9</div>
+        <div class="day1-1">10
+        <p><a href="https://www.google.com/?hl=ar"> click for google</a></p>
+        </div>
+        <div>11</div>
+        <div>12</div>
+        <div>13</div>
+        <div>14</div>
+        <div class="today">15</div>
+        <div>16</div>
+        <div>17</div>
+        <div>18</div>
+        <div>19</div>
+        <div>20</div>
+        <div class="day1-2">21
+         <p> <i class="fas fa-circle"></i><span>9a</span> Meeting</p>
+        </div>
+        <div>22</div>
+        <div>23</div>
+        <div id="d3">24</div>
+        <div>25</div>
+        <div>26</div>
+        <div>27</div>
+        <div>28</div>
+        <div>29</div>
+        <div>30</div>
+        
+    </div>
+</div>
+</div>
+</div>
+<!---------------------------------------------------------------------------------------------->
+<div class="event-news">
+    <div class="container">
+        <p class="c-p1">Event News</p>
+        <div class="row row-cols-2 row-cols-lg-4 g-2 g-lg-3">
+            <div class="col">
+            <div class="event1"> 
+                <img src="./img/e1.png">
+                <p class="p1">Capital Confidential: ‘Big Short’ author contemplates taking on Brexit </p>
+                <p class="p2" style="padding-top: 20px;">Oct. 29, 2019 at 6:06 a.m. ET </p>
+            </div>
+            </div>
+            <div class="col">
+            <div class="event1">
+                <img src="./img/e2.png">
+                <p class="p1">U.K. assets are too hot to handle right now, top investors say </p>
+                <p class="p2" style="padding-top: 47px;">Oct. 29, 2019 at 6:06 a.m. ET </p>
+            </div>
+            </div>
+            <div class="col">
+            <div class="event1">
+                <img src="./img/e3.png">
+                <p class="p1">Europe’s largest money manager warns of an investment industry liquidity crisis </p>
+                <p class="p2" style="padding-top: 20px;">Oct. 29, 2019 at 6:06 a.m. ET </p>
+        </div>
+        </div>
+            <div class="col">
+            <div class="event1">
+                <img src="./img/e4.png">
+                <p class="p1">Short-seller Muddy Waters attacks litigation fund Burford </p>
+                <p class="p2"style="padding-top: 47px;">Oct. 29, 2019 at 6:06 a.m. ET </p>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="event">
+    <div class="row g-0">
+    <div class="col-sm-12 col-md-6">
+    <img src="./img/gus-moretta-LZzKJWYwzYs-unsplash.png" width="100%" height="361px" >
+    </div>
+    <div class="col-sm-12 col-md-6">
+        <div class="see ">
+        <a href="#">See all events</a>
+        <p class="see1">VIRTUAL EVENT</p>
+        <p class="see2"><span>May 20, 2021</span><br> Learn from Industry Superstars </p>
+        <button type="button">Register for free</button> 
+    </div>
+    </div>
+    </div>
+    </div>
+<!---------------------------------------------------------------------------------------------->
+<div class="manger1">
+    <div class="container overflow-hidden">
+        <div class="row gx-5">
+        <div class="col col-sm-12 col-md-8">
+            <div class="p-3 ">
+            <div class="mange11">
+            <p class="mange11">Interested in proposing content?</p>
+            <img src="./img/ma1.png" width="100%" height="160px">
+            <div class="d-flex">
+                <p class="mange121">If you have a topic that you would like to publish into the company intranet, write an abstract and propose it to the internal communication team!</p>
+                <button type="submit"> Propose content</button>
+            </div>
+            </div>
+        </div>
+        </div>
+        <div class="col col-sm-12 col-md-4"> 
+        <div class="p-3 ">
+            <div class="mange21">
+            <p class="mange111">Content Manager</p>
+            <img src="./img/mng2.png" width="100%" height="160px">
+            <p class="mange131">Kevin Smith</p>
+            <p class="mange121">Kevinsmith@nuport.com  -  703-656-02020</p>
+            </div>
+        </div>
+        </div>
+    </div>
+    </div>
+    </div>
+<!---------------------------------------------------------------------------------------------------------------------------------------------->
+    <div class="footer">
+    <div class="footer-p"><p>Help us improve all<span>Port</span></p></div>
+    <div> <button type="submit">Feedback</button></div>
+    </div>
+<!-------------------------------------------------------------------------------------------------------------------------------------------------->
+    <div class="footer1">
+        <div class="container1">
+        <div class="f-content">
+        <div class="f-a"><a href="#">allPort</a></div>
+        <div class="footer1-content">
+        <div class="f-a1"><a href="#">FAQs</a></div> 
+        <div class="f-a1"><a href="#">Accessibility help</a></div>
+        <div class="f-a1"><a href="#">Corporate Website</a></div>
+        <div class="f-a1"><a href="#">Contact us</a></div>
+        </div>
+    </div>
+    </div>
+    </div>
+    </body>
+    
+<script src="./js/calender.js"></script>
+<script src="./js/jquery.min.js"></script>
+<script src="js/bootstrap.bundle.js"></script>
+<script src="js/functions.js"></script>
+</html>
+    

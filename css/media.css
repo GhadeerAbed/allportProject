@@ -1,0 +1,140 @@
+
+  /* Extra small devices (portrait phones, less than 576px) */
+  @media (max-width: 575.98px) {
+    .Company-News {
+      margin-top: 130%;
+      padding-left: 30px;
+  }
+    .nav1 .dropdown{
+      width: 200px;
+    }
+    .footer{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+    .footer1 .f-content{
+      display: flex;
+     flex-direction: column;
+     text-align: center;
+    }
+    .footer1-content{
+      display: block;
+    }
+    .f-a{
+      padding-left: 50px;
+    }
+    .f-a1 {
+      padding-top: 10px;
+    }
+    .manger {
+      margin-top: 90%;
+    }
+    .two-phargraph{
+      display: flex;
+      flex-direction: column;
+    }
+
+  }
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+  .Company-News {
+    margin-top: 50%;
+}
+.manger {
+  margin-top: 50%;
+}
+.container{
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.footer{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.footer1 .f-content{
+  display: flex;
+ flex-direction: column;
+ text-align: center;
+}
+.footer1-content{
+  display: block;
+}
+.f-a{
+  padding-left: 50px;
+}
+.f-a1 {
+  padding-top: 10px;
+}
+.phar{
+  display: flex;
+  flex-direction: column;
+}
+.Quick-Links
+{
+  padding-left: 15px;
+  padding-top: 10px;
+  
+}
+.Quick-Links .fea-2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: auto;
+  width: initial;
+  padding: 30px;
+}
+ #q1{ 
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.two-phargraph{
+  display: flex;
+  flex-direction: column;
+}
+#first-ph-id{
+  margin-top: 30px;
+}
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {  
+  .container{
+    padding-left: 25px;
+    padding-right: 25px;
+  } 
+  .footer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .footer1 .f-content{
+    display: flex;
+   flex-direction: column;
+   text-align: center;
+  }
+  .footer1-content{
+    display: block;
+  }
+  .f-a{
+    padding-left: 50px;
+  }
+  .f-a1 {
+    padding-top: 10px;
+  }
+  
+  
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+  
+
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+ 
+}
